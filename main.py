@@ -8,7 +8,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000"
+        "http://localhost:3000",
+        "https://lauvsnes1.github.io/numerical-methods/",
     ],  # Allow requests from your frontend server's origin
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods
