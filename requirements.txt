@@ -50,8 +50,7 @@ trio_typing==0.8.0
 ujson==5.7.0
 url_parser==3.0.3
 urllib3_secure_extra==0.1.0
-watchgod==0.8.2
-xmlrpclib==1.0.1
+
 zstandard==0.21.0
 
 uvicorn==0.12.3
