@@ -1,3 +1,7 @@
 /myenv
 
 /__pychache__
+
+/lib
+
+*.zip
