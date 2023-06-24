@@ -33,6 +33,11 @@ class MatrixModel(BaseModel):
     matrix: List[List[float]]
 
 
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+
 @app.post("/rref/")
 async def get_rref(matrix: MatrixModel):
     print("matrix:", matrix)
